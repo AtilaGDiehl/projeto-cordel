@@ -17,14 +17,18 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(145, 142, 142);
     font-family: var(--font1);
 }
 
 header {
+    background-image: url(imagens/cafepb.jpg);
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
+    text-shadow: 1px 1px 0px black;    background-size: cover;
+    background-position: left;
+
 }
 
 header > h1 {
@@ -32,6 +36,7 @@ header > h1 {
     font-variant: small-caps;
     font-family: var(--font2);
     font-size: 5em;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
 }
 
 header > p {
@@ -54,6 +59,8 @@ section {
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 2em;
+    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.452);
+
 }
 
 section > p {
@@ -68,7 +75,6 @@ section.normal{
 section.imagem{
     background-color: rgb(51, 51, 51);
     color: white;
-    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.452);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -88,8 +94,6 @@ section#img01 {
 section#img02 {
     background-image: url(imagens/background002.jpg);
 }
-
-
 
 footer {
     background-color: black;
